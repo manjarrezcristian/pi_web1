@@ -30,7 +30,7 @@ body {
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center 67%;
-  background-image: url(../images/banner.jpg);
+  background-image: url(../../src/assets/web-images/banner.jpg);
   display: flex;
   align-items: center;
 }
@@ -70,7 +70,7 @@ body {
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center 67%;
-  background-image: url(../images/Blog.jpg);
+  background-image: url(../../src/assets/web-images/Blog.jpg);
   display: flex;
   align-items: center;
 }
