@@ -40,14 +40,22 @@
                 <div class="navbar-nav text-center">
                     <a class="nav-link active" aria-current="page" href="../../index.html">Home</a>
                     <a class="nav-link" href="../../public/home/catalogo.html">Catalogo</a>
-                    <a class="nav-link" href="../../public/user-interfase/Blog.html">Blog</a>
+                    <a class="nav-link" href="./Blog.html">Blog</a>
                 </div>
             </div>
 
-            <!-- Botón de inicio de sesión alineado a la derecha -->
-            <div class="d-flex">
-                <a href="../../public/home/login.html" class="btn btn-outline-secondary">Iniciar Sesión</a>
-            </div>
+             <!-- Botón de inicio de sesión alineado a la derecha -->
+<!-- Botón de inicio de sesión desplegable -->
+<div class="dropdown">
+  <button class="btn btn-secondary dropdown-toggle" type="button" id="inicioSesionDropdown" data-bs-toggle="dropdown" aria-expanded="false">
+    Iniciar Sesión
+  </button>
+  <ul class="dropdown-menu" aria-labelledby="inicioSesionDropdown">
+    <li><a class="dropdown-item" href="./login.html">Inicio Estudiante</a></li>
+    <li><a class="dropdown-item" href="../admin-interfase/login.html">Inicio Administrador</a></li>
+  </ul>
+</div>
+
         </div>
     </nav>
     <!-- ==========================================   Menú  =============================================================== -->
@@ -142,7 +150,7 @@
         </div>
         <div class="col">
             <div class="card h-100">
-                <a href="detalle.html"><img src="../assets/images/Libro9.jpg" class="card-img-top" alt="..."></a>
+                <a href="detalle.html"><img src="../../src/assets/web-images/Libro9.jpg" class="card-img-top" alt="..."></a>
                 <div class="card-body">
                     <h5 class="card-title">La sombra de un engaño</h5>
                 </div>
@@ -150,7 +158,7 @@
         </div>
         <div class="col">
             <div class="card h-100">
-                <a href="detalle.html"><img src="../assets/images/Libro10.jpg" class="card-img-top" alt="..."></a>
+                <a href="detalle.html"><img src="../../src/assets/web-images/Libro10.jpg" class="card-img-top" alt="..."></a>
                 <div class="card-body">
                     <h5 class="card-title">Punto ciego</h5>
                 </div>
@@ -158,7 +166,7 @@
         </div>
         <div class="col">
             <div class="card h-100">
-                <a href="detalle.html"><img src="../assets/images/Libro11.jpg" class="card-img-top" alt="..."></a>
+                <a href="detalle.html"><img src="../../src/assets/web-images/Libro11.jpg" class="card-img-top" alt="..."></a>
                 <div class="card-body">
                     <h5 class="card-title">Rey de la soberbia</h5>
                 </div>
@@ -166,7 +174,7 @@
         </div>
         <div class="col">
             <div class="card h-100">
-                <a href="detalle.html"><img src="../assets/images/Libro12.jpg" class="card-img-top" alt="..."></a>
+                <a href="detalle.html"><img src="../../src/assets/web-images/Libro12.jpg" class="card-img-top" alt="..."></a>
                 <div class="card-body">
                     <h5 class="card-title">Neuro hábitos</h5>
                 </div>
@@ -178,9 +186,9 @@
          <footer class="pie-pagina">
         <div class="contenido-footer">
             <div class="redes">
-                <a href="#"><img src="../assets/images/facebook-brands.svg" alt="Facebook"></a>
-                <a href="#"><img src="../assets/images/instagram-brands.svg" alt="Instagram"></a>
-                <a href="#"><img src="../assets/images/spotify-brands.svg" alt="Spotify"></a>
+                <a href="#"><img src="../../src/assets/web-images/facebook-brands.svg" alt="Facebook"></a>
+                <a href="#"><img src="../../src/assets/web-images/instagram-brands.svg" alt="Instagram"></a>
+                <a href="#"><img src="../../src/assets/web-images/spotify-brands.svg" alt="Spotify"></a>
             </div>
     
             <div class="informacion">
@@ -218,9 +226,9 @@
         <p style="text-align: center; margin-top: 20px;">Derechos reservados &copy; 2025</p>
     </footer>
         <!-- ==========================================   footer  =============================================================== -->
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.6/dist/js/bootstrap.bundle.min.js"
-        integrity="sha384-j1CDi7MgGQ12Z7Qab0qlWQ/Qqz24Gc6BM0thvEMVjHnfYGF0rmFCozFSxQBxwHKO"
-        crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.6/dist/js/bootstrap.bundle.min.js"
+            integrity="sha384-j1CDi7MgGQ12Z7Qab0qlWQ/Qqz24Gc6BM0thvEMVjHnfYGF0rmFCozFSxQBxwHKO"
+            crossorigin="anonymous"></script>
 </body>
 
 </html>

@@ -45,10 +45,18 @@
                 </div>
             </div>
 
-            <!-- Botón de inicio de sesión alineado a la derecha -->
-            <div class="d-flex">
-                <a href="login.html" class="btn btn-outline-secondary">Iniciar Sesión</a>
-            </div>
+             <!-- Botón de inicio de sesión alineado a la derecha -->
+<!-- Botón de inicio de sesión desplegable -->
+<div class="dropdown">
+  <button class="btn btn-secondary dropdown-toggle" type="button" id="inicioSesionDropdown" data-bs-toggle="dropdown" aria-expanded="false">
+    Iniciar Sesión
+  </button>
+  <ul class="dropdown-menu" aria-labelledby="inicioSesionDropdown">
+    <li><a class="dropdown-item" href="./login.html">Inicio Estudiante</a></li>
+    <li><a class="dropdown-item" href="../admin-interfase/login.html">Inicio Administrador</a></li>
+  </ul>
+</div>
+
         </div>
     </nav>
     <!-- ==========================================   Menú  =============================================================== -->
