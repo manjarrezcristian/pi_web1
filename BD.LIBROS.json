@@ -1,0 +1,94 @@
+{
+  "uuid": "77226014-1c0e-40d6-9816-e39df72773a8",
+  "lastMigration": 33,
+  "name": "BD.LIBROS",
+  "endpointPrefix": "",
+  "latency": 0,
+  "port": 3001,
+  "hostname": "",
+  "folders": [],
+  "routes": [
+    {
+      "uuid": "14408520-3534-4462-9e6d-5d7b08c2a649",
+      "type": "http",
+      "documentation": "ESTOS SON LOS LIBROS DE LA BD",
+      "method": "get",
+      "endpoint": "LIBROS",
+      "responses": [
+        {
+          "uuid": "05fe0e6a-e4c4-4a2e-ad5d-19e199537478",
+          "body": "[\r\n  {\r\n    \"id\": \"L-001\",\r\n    \"titulo\": \"El Principito\",\r\n    \"autor\": \"Antoine de Saint-Exupéry\",\r\n    \"categoria\": \"Ficción\",\r\n    \"ubicacion\": \"Estante A1\",\r\n    \"estado\": \"Disponible\"\r\n  },\r\n  {\r\n    \"id\": \"L-002\",\r\n    \"titulo\": \"Cien años de soledad\",\r\n    \"autor\": \"Gabriel García Márquez\",\r\n    \"categoria\": \"Realismo Mágico\",\r\n    \"ubicacion\": \"Estante B2\",\r\n    \"estado\": \"Disponible\"\r\n  },\r\n  {\r\n    \"id\": \"L-003\",\r\n    \"titulo\": \"1984\",\r\n    \"autor\": \"George Orwell\",\r\n    \"categoria\": \"Distopía\",\r\n    \"ubicacion\": \"Estante C3\",\r\n    \"estado\": \"Prestado\"\r\n  },\r\n  {\r\n    \"id\": \"L-004\",\r\n    \"titulo\": \"Don Quijote de la Mancha\",\r\n    \"autor\": \"Miguel de Cervantes\",\r\n    \"categoria\": \"Novela\",\r\n    \"ubicacion\": \"Estante A2\",\r\n    \"estado\": \"Disponible\"\r\n  }\r\n]\r\n",
+          "latency": 0,
+          "statusCode": 200,
+          "label": "",
+          "headers": [],
+          "bodyType": "INLINE",
+          "filePath": "",
+          "databucketID": "",
+          "sendFileAsBody": false,
+          "rules": [],
+          "rulesOperator": "OR",
+          "disableTemplating": false,
+          "fallbackTo404": false,
+          "default": true,
+          "crudKey": "id",
+          "callbacks": []
+        }
+      ],
+      "responseMode": null,
+      "streamingMode": null,
+      "streamingInterval": 0
+    }
+  ],
+  "rootChildren": [
+    {
+      "type": "route",
+      "uuid": "14408520-3534-4462-9e6d-5d7b08c2a649"
+    }
+  ],
+  "proxyMode": false,
+  "proxyHost": "",
+  "proxyRemovePrefix": false,
+  "tlsOptions": {
+    "enabled": false,
+    "type": "CERT",
+    "pfxPath": "",
+    "certPath": "",
+    "keyPath": "",
+    "caPath": "",
+    "passphrase": ""
+  },
+  "cors": true,
+  "headers": [
+    {
+      "key": "Content-Type",
+      "value": "application/json"
+    },
+    {
+      "key": "Access-Control-Allow-Origin",
+      "value": "*"
+    },
+    {
+      "key": "Access-Control-Allow-Methods",
+      "value": "GET,POST,PUT,PATCH,DELETE,HEAD,OPTIONS"
+    },
+    {
+      "key": "Access-Control-Allow-Headers",
+      "value": "Content-Type, Origin, Accept, Authorization, Content-Length, X-Requested-With"
+    }
+  ],
+  "proxyReqHeaders": [
+    {
+      "key": "",
+      "value": ""
+    }
+  ],
+  "proxyResHeaders": [
+    {
+      "key": "",
+      "value": ""
+    }
+  ],
+  "data": [],
+  "callbacks": []
+}
